@@ -1,0 +1,14 @@
+.current {
+font-weight: bold;
+color: green;
+}
+body {
+background-image :url("B.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+#id{
+    width:min-content;
+}
