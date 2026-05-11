@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/svg+xml">
+</head>
+<body>
+    <header>
+        
+        <h1>Home</h1>
+        
+       
+         <div class="topnav" id="myTopnav">
+            <ul>
+                <li><a href="index.html"  class="current">Home</a></li>
+                
+                <li><a href="what.html"  >What is PMI?</a></li> 
+                <li><a href="why.html">Why are PMI's important?</a></li>
+                <li><a href="how.html">How are PMI's used?</a></li>
+                
+                
+                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"></a></li>
+                <li><i class="fa fa-bars"></i></li>
+            </ul>
+           
+         </div>
+    
+    </header>
+
+ 
+     <p>I chose Payment Method Identifiers as my web standard topic. In this presentation, I will be talking about what they are, how they work, and why they are important in online payments.</p>
+
+<script>
+function myFunction() {
+
+    var x = document.getElementById("myTopnav");
+
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } 
+    
+    else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+    <footer>
+        <p>&copy; 2025 Mame A Gueye - CSIT 121</p>
+    </footer>
+</body>
+</html>

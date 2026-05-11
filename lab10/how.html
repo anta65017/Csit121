@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How is it used?</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/svg+xml">
+</head>
+<body>
+    <header>
+        
+        <h1>How</h1>
+        
+       
+         <div class="topnav" id="myTopnav">
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                
+                <li><a href="what.html"  >What is PMI?</a></li> 
+                <li><a href="why.html">Why are PMI's important?</a></li>
+                <li><a href="how.html" class="current">How are PMI's used?</a></li>
+                <li><a href="source.html">Sources</a></li>
+
+                
+                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"></a></li>
+                <li><i class="fa fa-bars"></i></li>
+            </ul>
+           
+         </div>
+    
+    </header>
+
+     <p>Payment Method Identifiers (PMIs) are used in web development to tell a website which payment options it can accept during checkout. They are included in code so browsers and payment systems can match the user’s available payment methods, like credit cards or digital wallets, with what the website supports. This helps make the payment process faster, more accurate, and more consistent across different platforms.</p>
+
+
+
+<script>
+function myFunction() {
+
+    var x = document.getElementById("myTopnav");
+
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } 
+    
+    else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+    <footer>
+        <p>&copy; 2025 Mame A Gueye - CSIT 121</p>
+    </footer>
+</body>
+</html>
