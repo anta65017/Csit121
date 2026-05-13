@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Bakes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.jpg" type="image/svg+xml">
+</head>
+<body>
+    <header>
+        
+        <h1>Fresh Bakes</h1>
+        
+       
+        <div id ="navbar">
+        <a href="index.html" >Home</a>
+        
+        <a href="menu.html">Menu</a>
+         
+        <a href="order.html" class="current">Order Now</a>
+
+        <a href="about.html">About Us</a>
+
+        <a href="reflection.html">Project Reflection</a>
+</div>
+    
+    </header>
+<main>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id=fname name="fname" ><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id=lname name="lname" ><br>
+        <label for="email">email adress:</label><br>
+        <input type="text" id=email name="email"><br>
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="adress"><br>
+
+    </form>
+
+    <label for="Pastrie">Pastrie Type</label>
+    <select multiple id="Pastrie" name="Pastrie">
+   <option value="Croissant">Croissant</option>
+   <option value="Palmier">Palmier</option>
+   <option value="Fraisier">Fraisier</option>
+   <option value="Chouquette">Chouquette</option>
+   <option value="MilleFeuille">MilleFeuille</option>
+   <option value="Beignet">Beignet</option>
+   <option value="Chocolatine">Chocolatine</option>
+
+   
+    
+
+</select>
+<label for="amount">Quantity:</label>
+   <input type="number" id="amount" min="1" max="10">
+    
+<form>
+<input type="submit" value="Submit">
+</form>
+
+ 
+</main>
+<footer>
+        <p id="footer">&copy;Fresh Bakes, 2026 </p>
+    </footer>
+</body>
+</html>
